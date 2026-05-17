@@ -2,9 +2,8 @@
 
 ## O que é
 
-Script Python que simula e automatiza o processo de fechamento
-contábil de um ERP, gerando datasets financeiros e exportando
-relatórios em Excel.
+Pipeline completo de automação de fechamento contábil com geração
+de dataset, validação de lançamentos e dashboard interativo.
 
 ## Por que fiz
 
@@ -18,6 +17,7 @@ do processo usando Python.
 - Pandas
 - OpenPyXL
 - Streamlit
+- Plotly
 
 ## Como rodar
 pip install -r requirements.txt
@@ -25,7 +25,16 @@ python main.py
 
 ## Funcionalidades
 
-- Geração de dataset contábil simulado
-- Exportação para Excel
-- Simulação de fechamento de ERP
-- Interface visual com Streamlit
+- Geração de 100.000 lançamentos contábeis simulados com valores realistas
+- 7 validações contábeis automatizadas (débitos/créditos, datas, duplicatas, suspeitos)
+- Relatório de validação exportado em `.txt`
+- Dashboard interativo com KPIs, gráficos e tabela de inconsistências
+
+## Estrutura
+├── dashboard/        # Dashboard Streamlit
+├── data/             # Dataset gerado (ignorado pelo git)
+├── reports/          # Relatórios gerados (ignorado pelo git)
+├── src/
+│   ├── generate_dataset.py   # Geração dos lançamentos
+│   └── validate_entries.py   # Validações contábeis
+└── main.py           # Orquestrador com menu interativo
