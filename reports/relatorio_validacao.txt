@@ -1,0 +1,29 @@
+==================================================
+   RELATÓRIO DE VALIDAÇÃO CONTÁBIL
+   Gerado em: 17/05/2026 16:03:29
+==================================================
+
+Total de lançamentos analisados: 100,000
+
+--------------------------------------------------
+  INCONSISTÊNCIAS ENCONTRADAS
+--------------------------------------------------
+✅ OK | Débito e crédito zerados: 0 registros
+✅ OK | Débito e crédito simultâneos: 0 registros
+✅ OK | Valores negativos: 0 registros
+✅ OK | Datas futuras: 0 registros
+✅ OK | Conta contábil inválida: 0 registros
+⚠️  ATENÇÃO | Lançamentos suspeitos (> R$ 40.000): 20,292 registros
+✅ OK | Documentos duplicados: 0 registros
+
+--------------------------------------------------
+  EQUILÍBRIO DE DÉBITOS E CRÉDITOS
+--------------------------------------------------
+Total Débitos:  R$ 1,257,031,704.29
+Total Créditos: R$ 1,251,102,831.79
+Diferença:      R$    5,928,872.50
+⚠️  ATENÇÃO: Lançamentos NÃO estão equilibrados!
+
+==================================================
+  RESULTADO: VALIDAÇÃO COM PENDÊNCIAS
+==================================================
