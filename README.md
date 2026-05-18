@@ -1,5 +1,9 @@
 # 🏦 ERP Closing Automation
 
+## 🎥 Demo
+
+https://github.com/user-attachments/assets/7563d289-d006-4070-9534-315648832fd9
+
 ## O que é
 
 Pipeline completo de automação de fechamento contábil com geração
